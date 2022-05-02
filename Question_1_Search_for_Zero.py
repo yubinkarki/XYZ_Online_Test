@@ -9,7 +9,19 @@ def checkzero(nums):
     for values in number_list:
         str_value = str(values)
         new_list.append(str_value)
+    # print(new_list)
+
+    # Tracking numbers with more than 1 digit and break them down into single strings.
+    for i in range(len(new_list)):
+        for value in new_list:
+            if len(value) > 1:
+                break_down = list(value)
+                new_list.remove(value)
+                new_list = new_list + break_down
+            else:
+                pass
     print(new_list)
+
 
 number_list = [] # List to store all user input numbers.
 n = int(input("Enter total numbers: "))
