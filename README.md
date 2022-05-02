@@ -4,7 +4,7 @@ Questions asked on the online exam conducted by Leapfrog for internship of Softw
 ### Question #1 - Search for Zero
 Write a program that takes multiple numbers as an input and return 'Yes' if the digit 0 appers anywhere in the array. Otherwise, return 'No'. The first input should be the count of the numbers to be provided. Each subsequent number will be part of the array. Each input should be provided in a new line.
 
-Example:
+**Example:**
 
 Sample Input 1:
 3
@@ -28,7 +28,7 @@ No
 ### Question #2 - Shift the Vowels
 Replace all vowels in a sentence with the next closest vowel in the sentence itself. The last vowel should be replaced by the first vowel in the sentence.
 
-Example:
+**Example:**
 
 Sample Input 1:
 Hello World
@@ -45,7 +45,7 @@ If the string is to be encoded, then it will only have characters and no digits.
 Decoding
 If the string is to be decoded, then it will have noth characters and digits. Decoding will be reverse of the encoding logic.
 
-Example:
+**Example:**
 
 Sample Input 1 - Encoding:
 AAAAAaaaXMMMMMMMMMMMM
