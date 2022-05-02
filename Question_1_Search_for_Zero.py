@@ -20,9 +20,14 @@ def checkzero(nums):
                 new_list = new_list + break_down
             else:
                 pass
-    print(new_list)
+    # print(new_list)
+
+    if "0" in new_list:
+        return "Yes"
+    else:
+        return "No"
 
 
 number_list = [] # List to store all user input numbers.
 n = int(input("Enter total numbers: "))
-checkzero(n)
+print(checkzero(n))
