@@ -2,7 +2,7 @@
 Questions asked on the online exam conducted by Leapfrog for internship of Software Engineer.
 
 ### Question #1 - Search for Zero
-Write a program that takes multiple numbers as an input and return 'Yes' if the digit 0 appers anywhere in the array. Otherwise, return 'No'. The first input should be the count of the numbers to be provided. Each subsequent number will be part of the array. Each input should be provided in a new line.
+Write a program that takes multiple numbers as an input and return 'Yes' if the digit 0 appears anywhere in the array. Otherwise, return 'No'. The first input should be the count of the numbers to be provided. Each subsequent number will be part of the array. Each input should be provided in a new line.
 
 **Example:**
 
@@ -40,10 +40,10 @@ Hollo Werld
 Write a program that takes a string as an input and can print either the encoded or decoded string based on the logic provided with the question.
 
 Encoding:  
-If the string is to be encoded, then it will only have characters and no digits. Encoding logic should replace N consecuteively repeated letters with the number N+2 followed by the letter (case sensitive).
+If the string is to be encoded, then it will only have characters and no digits. Encoding logic should replace N consecutively repeated letters with the number N+2 followed by the letter (case sensitive).
 
 Decoding:  
-If the string is to be decoded, then it will have noth characters and digits. Decoding will be reverse of the encoding logic.
+If the string is to be decoded, then it will have both characters and digits. Decoding will be reverse of the encoding logic.
 
 **Example:**
 
