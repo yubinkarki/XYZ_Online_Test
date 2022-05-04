@@ -16,6 +16,16 @@ def encoder(text_to_encode):
         count_list.append(text_to_encode.count(y))
     # print(count_list)
 
+    for value in count_list:
+        value = str(value+2)
+        new_count_list.append(value)
 
-myinput = "AAAAAaaaXMMMMMMMMMMMM"
+    for i in range(len(new_count_list)):
+        encoded_list.append(new_count_list[i] + unique_letters[i])
+
+    final_string = "".join(encoded_list)
+    return final_string
+
+
+myinput = "AAAAAAaaaXMMMMMMMMMMMM"
 print(encoder(myinput))
