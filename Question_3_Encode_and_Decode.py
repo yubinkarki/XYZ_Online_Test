@@ -1,6 +1,3 @@
-from cgitb import text
-
-
 def encoder(text_to_encode):
     individual_letters = list(text_to_encode)  # Converting string and storing it as a list.
     unique_letters = []
@@ -48,7 +45,7 @@ def decoder(text_to_decode):
         else:
             content_list.append(text_to_decode[i])
         i += 1
-    
+
     print(content_list)
 
 
