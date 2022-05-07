@@ -6,35 +6,35 @@ Write a program that takes multiple numbers as an input and return 'Yes' if the 
 
 **Example:**
 
-Sample Input 1:  
-3  
-1  
-2  
-205
+*Sample Input 1:*  
+> 3  
+> 1  
+> 2  
+> 205
 
-Sample Output 1:  
-Yes
+*Sample Output 1:*  
+> Yes
 
-Sample Input 2:  
-4  
-1  
-2  
-3  
-99
+*Sample Input 2:*  
+> 4  
+> 1  
+> 2  
+> 3  
+> 99
 
-Sample Output 2:  
-No
+*Sample Output 2:*  
+> No
 
 ### Question #2 - Shift the Vowels
 Replace all vowels in a sentence with the next closest vowel in the sentence itself. The last vowel should be replaced by the first vowel in the sentence.
 
 **Example:**
 
-Sample Input 1:  
-Hello World
+*Sample Input 1:*  
+> Hello World
 
-Sample Output 1:  
-Hollo Werld
+*Sample Output 1:*  
+> Hollo Werld
 
 ### Question #3 - Encode and Decode
 Write a program that takes a string as an input and can print either the encoded or decoded string based on the logic provided with the question.
@@ -47,14 +47,14 @@ If the string is to be decoded, then it will have both characters and digits. De
 
 **Example:**
 
-Sample Input 1 - Encoding:  
-AAAAAaaaXMMMMMMMMMMMM
+*Sample Input 1 - Encoding:*  
+> AAAAAaaaXMMMMMMMMMMMM
 
-Sample Output 1:  
-8A5a3X14M
+*Sample Output 1:*  
+> 8A5a3X14M
 
-Sample Input 2 - Decoding:  
-8A5a3X14M
+*Sample Input 2 - Decoding:*  
+> 8A5a3X14M
 
-Sample Output 2:  
-AAAAAaaaXMMMMMMMMMMMM
+*Sample Output 2:*  
+> AAAAAaaaXMMMMMMMMMMMM
