@@ -1,3 +1,6 @@
+from cgitb import text
+
+
 def encoder(text_to_encode):
     individual_letters = list(text_to_encode)  # Converting string and storing it as a list.
     unique_letters = []
@@ -27,5 +30,30 @@ def encoder(text_to_encode):
     return final_string
 
 
-myinput = "AAAAAAaaaXMMMMMMMMMMMM"
-print(encoder(myinput))
+def decoder(text_to_decode):
+    # list = [[8, "A"], [5, "a"], [3, "X"], [14, "M"]]
+    content_list = []
+    numbers_list = ["0","1","2","3","4","5","6","7","8","9"]
+    mixed_list = []
+    i = 0
+        
+    while i < len(text_to_decode):
+        if text_to_decode[i] in numbers_list:
+            if text_to_decode[i] and text_to_decode[i+1] in numbers_list:  # Check for another number after the current number.
+                join_str = text_to_decode[i] + (text_to_decode[i+1])  # Can only check for 2 digit numbers.
+                content_list.append(join_str)
+                text_to_decode = text_to_decode[:i+1] + text_to_decode[i+2:]
+            else:
+                content_list.append(text_to_decode[i])
+        else:
+            content_list.append(text_to_decode[i])
+        i += 1
+    
+    print(content_list)
+
+
+myinputencode = "AAAAAAaaaXMMMMMMMMMMMM"
+myinputdecode = "8A5a3X14M"
+
+print(encoder(myinputencode))
+decoder(myinputdecode)
