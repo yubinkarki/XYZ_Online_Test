@@ -10,7 +10,7 @@ def logic(inputs, input_length):
         if dict[values] > h:
             h = dict[values]
 
-    h_key = [k for k, v in dict.items() if v == h]  # Getting key from value using comprehension list.
+    h_key = [k for k, v in dict.items() if v == h]  # Getting key from value using list ccomprehension.
     print(h_key)
 
     return h
