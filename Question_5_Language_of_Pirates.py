@@ -5,7 +5,7 @@ def logic(my_input):
 
     for words in input_list:
         for i, j in enumerate(words):
-            if i == 0 and [x for x in words if x not in punc_list]:
+            if i == 0 and [char for items in input_list for char in items if char in punc_list]:  # List comprehension.
                 words = words[1:] + words[0]
                 words += "arg"
                 new_list.append(words)
