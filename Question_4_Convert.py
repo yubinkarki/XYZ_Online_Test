@@ -3,15 +3,7 @@ def logic(my_input):
     list_input = list(upper_input)
 
     for index, words in enumerate(list_input):
-        if index == 0:
-            if words == " " and list_input[index+1] == " ":
-                pass
-        if index == len(list_input)-1:
-            if words == " " and list_input[index-1] == " ":
-                pass
-        elif index != 0 and list_input[index+1] == " " or list_input[index-1] == " ":
-            pass
-        elif words == " " and list_input[index-1] != " " and list_input[index+1] != " ":
+        if words == " " and list_input[index-1] != " " and list_input[index+1] != " ":
             list_input[index] = "*"
     
     final_result = "".join(list_input)
