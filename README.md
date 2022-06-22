@@ -106,5 +106,50 @@ Write a program that takes multiple strings as input and prints the number of co
 > 3  
 
 ---
+### Question #1 - Find the Target  
+From a given string, return the number of occurence of the target word in the string.  
 
+**Example:**  
+
+*Sample Input 1:*  
+> The weather is the, nice today the.  
+> Target = the  
+
+*Sample Output 1:*  
+> 3  
+
+### Question #2 - Sum of All Digits (Recursion)  
+From a given number, return the sum of all individual digits using recursion.  
+
+**Example:**  
+
+*Sample Input 1:*  
+> 12345  
+
+*Sample Output 1:*  
+> 15  
+
+### Question #3 - 2nd Highest Number
+From an array of numbers, return the 2nd highest number.  
+
+**Example:**  
+
+*Sample Input 1:*  
+> [12, 14, 15, 9, 100]  
+
+*Sample Output 1:*  
+> 15  
+
+### Question #4 - Quicksort  
+Write a quicksort algorithm for an array of sorted numbers.  
+
+**Example:**  
+
+*Sample Input 1:*  
+> [2, 5, 1, 3, 8]  
+
+*Sample Output 1:*  
+> [1, 2, 3, 5, 8]  
+
+---
 <p align="center">End of file. Thank you for tuning in. Have a nice day.</p>
