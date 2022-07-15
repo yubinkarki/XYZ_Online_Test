@@ -48,7 +48,7 @@ If the string is to be decoded, then it will have both characters and digits. De
 **Example:**
 
 *Sample Input 1 - Encoding:*  
-> AAAAAaaaXMMMMMMMMMMMM
+> AAAAAAaaaXMMMMMMMMMMMM
 
 *Sample Output 1:*  
 > 8A5a3X14M
@@ -57,7 +57,7 @@ If the string is to be decoded, then it will have both characters and digits. De
 > 8A5a3X14M
 
 *Sample Output 2:*  
-> AAAAAaaaXMMMMMMMMMMMM  
+> AAAAAAaaaXMMMMMMMMMMMM  
 
 ### Question #4 - Convert to Uppercase  
 Write a program which takes a string and converts all the characters to uppercase and replaces space by * except for any leading and trailing spaces which should be left as it is.  
