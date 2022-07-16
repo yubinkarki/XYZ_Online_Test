@@ -106,7 +106,7 @@ Write a program that takes multiple strings as input and prints the number of co
 > 3  
 
 ---
-### Question #1 - Find the Target  
+### Question #7 - Find the Target  
 From a given string, return the number of occurence of the target word in the string.  
 
 **Example:**  
@@ -118,7 +118,7 @@ From a given string, return the number of occurence of the target word in the st
 *Sample Output 1:*  
 > 3  
 
-### Question #2 - Sum of All Digits (Recursion)  
+### Question #8 - Sum of All Digits (Recursion)  
 From a given number, return the sum of all individual digits using recursion.  
 
 **Example:**  
@@ -129,7 +129,7 @@ From a given number, return the sum of all individual digits using recursion.
 *Sample Output 1:*  
 > 15  
 
-### Question #3 - 2nd Highest Number
+### Question #9 - 2nd Highest Number
 From an array of numbers, return the 2nd highest number.  
 
 **Example:**  
@@ -140,7 +140,7 @@ From an array of numbers, return the 2nd highest number.
 *Sample Output 1:*  
 > 15  
 
-### Question #4 - Quicksort  
+### Question #10 - Quicksort  
 Write a quicksort algorithm for an array of sorted numbers.  
 
 **Example:**  
